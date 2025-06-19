@@ -1,0 +1,10 @@
+git checkout 001_Chuoi_thoat
+git add .
+git commit -m "message to note"
+git push -u origin 001_Chuoi_thoat
+
+git checkout main
+git pull origin main
+git merge 001_Chuoi_thoat
+git branch -d 001_Chuoi_thoat
+git push origin --delete 001_Chuoi_thoat
